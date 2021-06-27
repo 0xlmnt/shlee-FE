@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Hello wasm-pack!</title>
-  </head>
-  <body>
-    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
-    <script src="./bootstrap.js"></script>
-  </body>
+</head>
+<body>
+<div id="app">
+    <span v-bind:title="message">Hover me plis papi</span>
+    <h3>Counter: {{ counter }}</h3>
+</div>
+<noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="./bootstrap.js"></script>
+</body>
 </html>

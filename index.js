@@ -1,3 +1,13 @@
-import * as wasm from "hello-wasm-pack";
+import * as wasm from "lib-shlee-wasm"
 
-wasm.greet();
+const Counter = {
+    data() {
+        return {
+            counter: 0,
+            message: "sa ojpifd"
+        }
+    }
+}
+
+Vue.createApp(Counter).mount("#app")
+
