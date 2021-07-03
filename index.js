@@ -1,4 +1,4 @@
-import * as wasm from "lib-shlee-wasm"
+import * as sim from "lib-shlee-wasm"
 
 const Counter = {
     data() {
@@ -10,4 +10,4 @@ const Counter = {
 }
 
 Vue.createApp(Counter).mount("#app")
-
+const simulation = sim.Simulation();
